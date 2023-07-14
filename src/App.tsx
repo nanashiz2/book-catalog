@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import Navbar from './layout/ui/Navbar'
 
 function App() {
   return (
     <>
-      <p className='text-3xl font-bold underline'>hi</p>
+      <Navbar />
     </>
   )
 }
